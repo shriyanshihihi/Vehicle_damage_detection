@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['broken_parts', 'cracks', 'dent', 'paint_damage', 'scratch']
+
+roboflow:
+  workspace: mlmachayenge
+  project: damagedetection-unst0
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/mlmachayenge/damagedetection-unst0/2

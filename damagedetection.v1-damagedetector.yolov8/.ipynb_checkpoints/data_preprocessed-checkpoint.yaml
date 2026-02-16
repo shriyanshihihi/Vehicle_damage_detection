@@ -1,0 +1,4 @@
+train: preprocessed/train/images
+val: preprocessed/valid/images
+nc: 5
+names: ['broken_parts', 'cracks', 'dent', 'paint_damage', 'scratch']
